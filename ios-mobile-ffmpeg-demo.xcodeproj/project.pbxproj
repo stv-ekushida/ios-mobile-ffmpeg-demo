@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0741ED81C35E3F180A22A5A /* Pods_ios_mobile_ffmpeg_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0607A9505CB5366FD404B25B /* Pods_ios_mobile_ffmpeg_demo.framework */; };
 		BC11146D2406304B006F7E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11146C2406304B006F7E83 /* AppDelegate.swift */; };
 		BC11146F2406304B006F7E83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11146E2406304B006F7E83 /* SceneDelegate.swift */; };
 		BC1114712406304B006F7E83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1114702406304B006F7E83 /* ViewController.swift */; };
@@ -14,6 +15,8 @@
 		BC1114762406304D006F7E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1114752406304D006F7E83 /* Assets.xcassets */; };
 		BC1114792406304D006F7E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1114772406304D006F7E83 /* LaunchScreen.storyboard */; };
 		BC1114842406304E006F7E83 /* ios_mobile_ffmpeg_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1114832406304E006F7E83 /* ios_mobile_ffmpeg_demoTests.swift */; };
+		BC11149324063410006F7E83 /* UIStoryboard+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11149224063410006F7E83 /* UIStoryboard+Ex.swift */; };
+		C6D850434BB761B6E88FB3BA /* Pods_ios_mobile_ffmpeg_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91CAFE5FB6514FBB6ED9744 /* Pods_ios_mobile_ffmpeg_demoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0607A9505CB5366FD404B25B /* Pods_ios_mobile_ffmpeg_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_mobile_ffmpeg_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		128F1B93A68F294C8C191A10 /* Pods-ios-mobile-ffmpeg-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-mobile-ffmpeg-demo.release.xcconfig"; path = "Target Support Files/Pods-ios-mobile-ffmpeg-demo/Pods-ios-mobile-ffmpeg-demo.release.xcconfig"; sourceTree = "<group>"; };
+		5C2C6B5BCEF2C683103FF143 /* Pods-ios-mobile-ffmpeg-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-mobile-ffmpeg-demo.debug.xcconfig"; path = "Target Support Files/Pods-ios-mobile-ffmpeg-demo/Pods-ios-mobile-ffmpeg-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		67DFDB8EC819F89BFAC2F632 /* Pods-ios-mobile-ffmpeg-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-mobile-ffmpeg-demoTests.debug.xcconfig"; path = "Target Support Files/Pods-ios-mobile-ffmpeg-demoTests/Pods-ios-mobile-ffmpeg-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F3D0C455F05CCDC6EF8C35 /* Pods-ios-mobile-ffmpeg-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-mobile-ffmpeg-demoTests.release.xcconfig"; path = "Target Support Files/Pods-ios-mobile-ffmpeg-demoTests/Pods-ios-mobile-ffmpeg-demoTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC1114692406304B006F7E83 /* ios-mobile-ffmpeg-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-mobile-ffmpeg-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC11146C2406304B006F7E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC11146E2406304B006F7E83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +46,9 @@
 		BC11147F2406304E006F7E83 /* ios-mobile-ffmpeg-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-mobile-ffmpeg-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1114832406304E006F7E83 /* ios_mobile_ffmpeg_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_mobile_ffmpeg_demoTests.swift; sourceTree = "<group>"; };
 		BC1114852406304E006F7E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC11148E2406313A006F7E83 /* ios-mobile-ffmpeg-demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-mobile-ffmpeg-demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC11149224063410006F7E83 /* UIStoryboard+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Ex.swift"; sourceTree = "<group>"; };
+		E91CAFE5FB6514FBB6ED9744 /* Pods_ios_mobile_ffmpeg_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_mobile_ffmpeg_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0741ED81C35E3F180A22A5A /* Pods_ios_mobile_ffmpeg_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +64,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D850434BB761B6E88FB3BA /* Pods_ios_mobile_ffmpeg_demoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BF8E1A690A66083D050667D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0607A9505CB5366FD404B25B /* Pods_ios_mobile_ffmpeg_demo.framework */,
+				E91CAFE5FB6514FBB6ED9744 /* Pods_ios_mobile_ffmpeg_demoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC1114602406304B006F7E83 = {
 			isa = PBXGroup;
 			children = (
 				BC11146B2406304B006F7E83 /* ios-mobile-ffmpeg-demo */,
 				BC1114822406304E006F7E83 /* ios-mobile-ffmpeg-demoTests */,
 				BC11146A2406304B006F7E83 /* Products */,
+				F48E1E99FB5D672A7BC6F391 /* Pods */,
+				1BF8E1A690A66083D050667D /* Frameworks */,
+				BC11148E2406313A006F7E83 /* ios-mobile-ffmpeg-demo-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +111,7 @@
 				BC1114752406304D006F7E83 /* Assets.xcassets */,
 				BC1114772406304D006F7E83 /* LaunchScreen.storyboard */,
 				BC11147A2406304D006F7E83 /* Info.plist */,
+				BC11149224063410006F7E83 /* UIStoryboard+Ex.swift */,
 			);
 			path = "ios-mobile-ffmpeg-demo";
 			sourceTree = "<group>";
@@ -99,6 +125,17 @@
 			path = "ios-mobile-ffmpeg-demoTests";
 			sourceTree = "<group>";
 		};
+		F48E1E99FB5D672A7BC6F391 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C2C6B5BCEF2C683103FF143 /* Pods-ios-mobile-ffmpeg-demo.debug.xcconfig */,
+				128F1B93A68F294C8C191A10 /* Pods-ios-mobile-ffmpeg-demo.release.xcconfig */,
+				67DFDB8EC819F89BFAC2F632 /* Pods-ios-mobile-ffmpeg-demoTests.debug.xcconfig */,
+				B2F3D0C455F05CCDC6EF8C35 /* Pods-ios-mobile-ffmpeg-demoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC1114882406304E006F7E83 /* Build configuration list for PBXNativeTarget "ios-mobile-ffmpeg-demo" */;
 			buildPhases = (
+				6834522842F9A20114B3DD1A /* [CP] Check Pods Manifest.lock */,
 				BC1114652406304B006F7E83 /* Sources */,
 				BC1114662406304B006F7E83 /* Frameworks */,
 				BC1114672406304B006F7E83 /* Resources */,
@@ -123,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC11148B2406304E006F7E83 /* Build configuration list for PBXNativeTarget "ios-mobile-ffmpeg-demoTests" */;
 			buildPhases = (
+				816CA4F5C965A2E1D78FBAA4 /* [CP] Check Pods Manifest.lock */,
 				BC11147B2406304E006F7E83 /* Sources */,
 				BC11147C2406304E006F7E83 /* Frameworks */,
 				BC11147D2406304E006F7E83 /* Resources */,
@@ -149,6 +188,7 @@
 				TargetAttributes = {
 					BC1114682406304B006F7E83 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					BC11147E2406304E006F7E83 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -195,6 +235,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6834522842F9A20114B3DD1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-mobile-ffmpeg-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		816CA4F5C965A2E1D78FBAA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-mobile-ffmpeg-demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC1114652406304B006F7E83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,6 +290,7 @@
 				BC1114712406304B006F7E83 /* ViewController.swift in Sources */,
 				BC11146D2406304B006F7E83 /* AppDelegate.swift in Sources */,
 				BC11146F2406304B006F7E83 /* SceneDelegate.swift in Sources */,
+				BC11149324063410006F7E83 /* UIStoryboard+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -360,8 +448,10 @@
 		};
 		BC1114892406304E006F7E83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2C6B5BCEF2C683103FF143 /* Pods-ios-mobile-ffmpeg-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-mobile-ffmpeg-demo/Info.plist";
@@ -371,6 +461,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.stv-tech.ios-mobile-ffmpeg-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-mobile-ffmpeg-demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,8 +470,10 @@
 		};
 		BC11148A2406304E006F7E83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128F1B93A68F294C8C191A10 /* Pods-ios-mobile-ffmpeg-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-mobile-ffmpeg-demo/Info.plist";
@@ -389,6 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.stv-tech.ios-mobile-ffmpeg-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-mobile-ffmpeg-demo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,6 +491,7 @@
 		};
 		BC11148C2406304E006F7E83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DFDB8EC819F89BFAC2F632 /* Pods-ios-mobile-ffmpeg-demoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +514,7 @@
 		};
 		BC11148D2406304E006F7E83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F3D0C455F05CCDC6EF8C35 /* Pods-ios-mobile-ffmpeg-demoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
